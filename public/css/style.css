@@ -1,0 +1,33 @@
+body {
+
+}
+header{
+    background-color: #dddddd;
+    height: 70px;
+    margin: 0px 0px 10px 0px
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#contact-form{
+    background-color: #dddddd;
+    min-width: 360px;
+}
+#last-posts{
+    background-color: #dddddd;
+    min-width: 360px;
+    border-left: 1px solid grey;
+}
+footer{
+    background-color: #dddddd;
+    height:100px;
+    margin: 10px 0px 0px 0px
+}
+
+@media all and (max-width: 1140px){
+    #last-posts{
+        display: none;
+    }
+}

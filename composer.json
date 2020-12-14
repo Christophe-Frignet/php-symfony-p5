@@ -1,0 +1,17 @@
+{
+    "name": "christophe-frignet/php-symfony-p5",
+    "description": "bachelor validation project #5",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Christophe Frignet",
+            "email": "chrisfrignet@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Controller\\":"controller/"
+        }
+    },
+    "require": {}
+}
