@@ -5,31 +5,38 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="public/css/style.css">
-        
-        <?php
-        foreach($modules as $style){
-            ?>
-            <link rel="stylesheet" href="public/css/inc/<?=$style?>.css">
-            <?php
-        }
-        ?>
 
-        <title>Home</title>
+        <link rel="stylesheet" href="public/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="public/css/style.css">
+        <link rel="stylesheet" type="text/css" href="public/css/module/header.css">
+
+        <!-- modules inner css -->
+        <?php foreach($modules as $css) : ?>
+            <link rel="stylesheet" href="public/css/module/<?= $css ?>.css">
+        <?php endforeach; ?>
+
+        <!-- Tablet and desktop css -->
+        <link rel="stylesheet" href="public/css/responsive/<?= $responsive ?>.css">
+
+        <title><?=$title?></title>
     </head>
 
     <body>
-        <header>header</header>
-        <div id="container">
+        <header>
+            <?php include_once('module/header.php');?>
+        </header>
 
+        <div id="container">
             <?php
-            foreach($modules as $content){
-                include_once('inc/'. $content .'.php');
+            foreach($modules as $module){
+                include_once('module/'. $module .'.php');
             }
             ?>
-
         </div>
-        <footer>footer</footer>
+
+        <footer>
+            <?php include_once('module/footer.php');?>
+        </footer>
     </body>
 
 </html> 

@@ -1,0 +1,40 @@
+#last-posts{
+    width: 100%;
+    padding: 20px;
+}
+
+#last-posts article{
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    padding: 0px 0px 20px 0px;
+}
+
+#last-posts h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;;
+}
+
+#last-posts article h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#last-posts article p{
+    margin-bottom: 10px;
+}
+#last-posts article p a{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#last-posts article .author{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#last-posts article .date{
+    font-size: 13px;
+}
+

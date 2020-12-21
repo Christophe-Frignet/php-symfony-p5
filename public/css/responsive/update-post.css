@@ -1,0 +1,14 @@
+@media all and (max-width: 700px){
+    #last-comments{
+        display: none;
+    }
+}
+@media all and (min-width: 700px){
+    #last-comments{
+        width: 35%;
+        border-left: 1px solid grey;
+    }
+    #update-post{
+        width: 60%;
+    }
+}

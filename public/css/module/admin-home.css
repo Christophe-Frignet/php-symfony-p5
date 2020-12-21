@@ -1,0 +1,113 @@
+#admin-blog-posts{
+    padding: 20px;
+}
+
+#admin-blog-posts p.connection{
+    text-align: center;
+}
+
+#admin-blog-posts p.connection span{
+    font-weight: bold;
+}
+
+#admin-short-links{
+    border-bottom: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+#admin-short-links div{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#admin-short-links div a{
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid grey;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    padding-top:7px;
+    height: 43px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+#admin-short-links div span{
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+#admin-short-links button{
+    height: 50px;
+    width: 250px;
+    font-size: 15px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#admin-blog-posts article{
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    padding: 0px 0px 20px 0px;
+}
+
+#admin-blog-posts h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;;
+}
+
+#admin-blog-posts article h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#admin-blog-posts article p{
+    margin-bottom: 10px;
+}
+#admin-blog-posts article p a{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#admin-blog-posts article .author{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#admin-blog-posts article .date{
+    font-size: 13px;
+}
+
+#admin-blog-posts p.action{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#admin-blog-posts p.action button{
+    font-size: 13px;
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#admin-blog-posts section.paging{
+    display: flex;
+    justify-content: center;
+}
+
+#admin-blog-posts section.paging a{
+    border: 1px solid grey;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    padding-top:15px;
+    height: 35px;
+    margin: 0px 10px 0px 10px;
+}

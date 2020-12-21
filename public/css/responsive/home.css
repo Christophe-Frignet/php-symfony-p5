@@ -1,0 +1,11 @@
+@media all and (max-width: 1280px){
+    #last-posts{
+        display: none;
+    }
+}
+
+@media all and (min-width: 700px){
+    #presentation, #contact-form, #last-posts{
+        max-width: 300px;
+    }
+}

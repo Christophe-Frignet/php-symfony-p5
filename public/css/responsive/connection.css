@@ -1,0 +1,15 @@
+@media all and (max-width: 700px){
+    #last-posts{
+        display: none;
+    }
+}
+
+@media all and (min-width: 700px){
+    #connection{
+        width: 60%;
+    }
+    #last-posts{
+        width: 30%;
+        border-left: 1px solid grey
+    }
+}

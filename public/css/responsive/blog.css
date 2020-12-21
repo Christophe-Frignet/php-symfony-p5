@@ -1,0 +1,14 @@
+@media all and (max-width: 700px){
+    #presentation{
+        display: none;
+    }
+}
+
+@media all and (min-width: 700px){
+    #blog-posts{
+        width: 60%;
+    }#presentation{
+        width: 35%;
+        border-left: 1px solid grey;
+    }
+}

@@ -1,0 +1,46 @@
+#connection{
+    padding: 5px;
+    flex: 1;
+}
+#connection h1{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px 30px 0px;
+}
+#connection p{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+#connection fieldset{
+    padding: 0px 30px 0px 20px;
+}
+#connection input{
+    height: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+#connection input[type=submit]{
+    height: 45px;
+    width: 102%;
+    border: 1px solid grey;
+}
+#connection input[type=checkbox]{
+    height: 15px;
+    width: 15px;
+    margin: 10px 10px 20px 0px;
+}
+#connection textarea{
+    width: 100%;
+    height: 100px;
+    border: none;
+    border-left: 1px solid grey;
+    margin: 20px 0px 10px 0px;
+}
+#connection .terms{
+    font-size: 13px;
+}

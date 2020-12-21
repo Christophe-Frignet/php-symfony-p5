@@ -1,1 +1,0 @@
-<section id="last-posts">Last posts</section>

@@ -1,0 +1,41 @@
+#blog-posts{
+    width: 100%;
+    padding: 20px;
+    flex: 1;
+}
+
+#blog-posts article{
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    padding: 0px 0px 20px 0px;
+}
+
+#blog-posts h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;;
+}
+
+#blog-posts article h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#blog-posts article p{
+    margin-bottom: 10px;
+}
+#blog-posts article p a{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+#blog-posts article .author{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#blog-posts article .date{
+    font-size: 13px;
+}
+
