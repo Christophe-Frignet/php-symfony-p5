@@ -1,0 +1,14 @@
+@media all and (max-width: 700px){
+    #last-posts{
+        display: none;
+    }
+}
+@media all and (min-width: 701px){
+    #last-posts{
+        width: 35%;
+        border-left: 1px solid grey;
+    }
+    #create-post{
+        width: 56%;
+    }
+}

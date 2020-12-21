@@ -1,0 +1,15 @@
+
+@media all and (max-width: 700px){
+    #last-pending-comments{
+        display: none;
+    }
+}
+@media all and (min-width: 700px){
+    #admin-blog-posts{
+        width: 60%;
+    }
+    #last-pending-comments{
+        width: 30%;
+        border-left: 1px solid grey;
+    }
+}

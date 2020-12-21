@@ -1,5 +1,5 @@
-body {
-
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
 header{
     background-color: #dddddd;
@@ -11,23 +11,49 @@ header{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#contact-form{
-    background-color: #dddddd;
-    min-width: 360px;
+h1{
+    font-size: 20px;
+    font-weight: bold;
 }
-#last-posts{
-    background-color: #dddddd;
-    min-width: 360px;
-    border-left: 1px solid grey;
+a{
+    color: black;
 }
-footer{
-    background-color: #dddddd;
-    height:100px;
-    margin: 10px 0px 0px 0px
+section{
+    margin: 0px 0px 20px 0px;
+    /*border: 1px solid red;*/
 }
-
-@media all and (max-width: 1140px){
-    #last-posts{
-        display: none;
-    }
+#footer{
+    margin: 10px 20px 0px 20px;
+    text-align: center;
+    border-top: 1px solid grey;
+}
+#footer #links{
+    margin: auto;
+    margin-top: 30px;
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+}
+#footer #links a{
+    display: block;
+    background-color: #dddddd;
+    width: 60px;
+    height: 39px;
+    padding-top: 21px;
+    border-radius: 50%;
+    text-align:center;
+    font-size: 13px;
+}
+ #footer p{
+    font-size: 14px;
+    margin: 20px 0px 10px 0px;
+}
+#footer p.copyright{
+    font-weight: bold;
+}
+#footer p.links a{
+    text-decoration: none;
+}
+#footer p.links a:hover{
+    text-decoration: underline;
 }

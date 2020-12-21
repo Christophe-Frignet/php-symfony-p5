@@ -1,0 +1,56 @@
+#presentation{
+    width: 100%;
+    padding: 10px;
+}
+#presentation .presentation-picture{
+    display: block;
+    margin: auto; 
+    width: 240px;
+    margin-top: 20px;
+}
+#presentation blockquote p,
+#presentation-links,
+#presentation h1,
+#presentation h2,
+#presentation h3{
+    text-align: center;
+    margin: 0px;
+}
+
+#presentation blockquote p {
+    font-size: 14px;
+    font-style: italic;
+    margin: 20px 0px 40px 0px;
+}
+#presentation h1 {
+    font-size: 14px;
+    margin: 20px 0px 5px 0px;
+}
+#presentation h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#presentation h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#presentation-links{
+    margin: auto;
+    margin-top: 30px;
+    width: 210px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#presentation-links a{
+    display: block;
+    background-color: #dddddd;
+    width: 60px;
+    height: 39px;
+    padding-top: 21px;
+    border-radius: 50%;
+    text-align:center;
+    font-size: 13px;
+}

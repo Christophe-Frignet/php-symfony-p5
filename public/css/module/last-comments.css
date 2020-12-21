@@ -1,0 +1,51 @@
+#last-comments{
+    padding: 10px;
+}
+#last-comments h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#last-comments section{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+#last-comments section.comment p.infos{
+    margin-bottom: 5px;
+}
+#last-comments section.comment p.infos span{
+    font-weight: bold;
+}
+#last-comments section.comment p.comment-text{
+    text-align: justify;
+}
+
+#last-comments section.comment div.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+}
+
+#last-comments section.comment div.action div{
+    text-align: center;
+}
+    #last-comments section.comment div.action div a{
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid grey;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    padding-top:16px;
+    height: 34px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#last-comments section.comment div.action div span{
+    font-size: 15px;
+}
+
+p.all-comments-link{
+    text-align: right;
+    margin-top: 30px;
+}
