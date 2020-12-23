@@ -10,7 +10,7 @@ class Controller {
         $modules = array('presentation','contact-form', 'last-posts');
         $responsive = 'home';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function displayBlog()
@@ -19,7 +19,7 @@ class Controller {
         $modules = array('blog-posts', 'presentation');
         $responsive = 'blog';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function displayPost()
@@ -28,7 +28,7 @@ class Controller {
         $modules = array('post', 'last-posts');
         $responsive = 'post';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function registerUser()
@@ -37,7 +37,7 @@ class Controller {
         $modules = array('registration', 'last-posts');
         $responsive = 'registration';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function connectUser()
@@ -46,7 +46,7 @@ class Controller {
         $modules = array('connection', 'last-posts');
         $responsive = 'connection';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function displayAdminHome()
@@ -55,7 +55,7 @@ class Controller {
         $modules = array('admin-home', 'last-pending-comments');
         $responsive = 'admin';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function updatePost()
@@ -64,7 +64,7 @@ class Controller {
         $modules = array('update-post', 'last-comments');
         $responsive = 'update-post';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function createPost()
@@ -73,7 +73,7 @@ class Controller {
         $modules = array('create-post', 'last-posts');
         $responsive = 'new-post';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
     public function checkComments()
@@ -82,7 +82,7 @@ class Controller {
         $modules = array('pending-comments', 'last-posts');
         $responsive = 'pending-comments';
         
-        require_once('view/template.php');
+        require_once('../view/template.php');
     }
 
 }
