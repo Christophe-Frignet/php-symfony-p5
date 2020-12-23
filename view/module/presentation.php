@@ -5,7 +5,7 @@
     <h3>Bachelor of science</h3> 
 
     <img class="presentation-picture"
-        src="public/img/photo-christopher-frignet.png"
+        src="img/photo-christopher-frignet.png"
         alt="photo">
 
     <blockquote class="blockquote">

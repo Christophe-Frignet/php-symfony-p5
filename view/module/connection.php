@@ -6,7 +6,7 @@
             <input type="text" name="email" id="email"><br>
             <label for="pass">Password</label><br>
             <input type="text" name="pass" id="pass"><br>
-            <input type="submit" value="Submit">
+            <input type="submit" value="Sign in">
         </fieldset>
     </form>
 </section> 

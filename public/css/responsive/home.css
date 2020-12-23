@@ -6,6 +6,6 @@
 
 @media all and (min-width: 700px){
     #presentation, #contact-form, #last-posts{
-        max-width: 300px;
+        max-width: 400px;
     }
 }
