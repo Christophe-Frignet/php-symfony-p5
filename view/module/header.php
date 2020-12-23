@@ -1,9 +1,3 @@
-<!--
-<a href="index.php?action=displayPost">Post</a>
-<a href="index.php?action=updatePost">Update Post</a>
-<a href="index.php?action=checkComments">Check comments</a>
--->
-
 <div class="site">
       <header class="site-header">
         <input
@@ -34,22 +28,11 @@
             <li class="menu-item">
                 <a href="index.php?action=connectUser">Sign in</a>
             </li>
-          </ul>
-        </nav>
-        <!-- Admin nav 
-        <nav class="main-navigation">
-          <ul class="menu">
             <li class="menu-item">
-                <a href="index.php?action=displayAdminHome">Admin home</a>
-            </li>
-            <li class="menu-item">
-                <a href="index.php?action=createPost">New Post</a>
-            </li>
-            <li class="menu-item">
-                <a href="index.php?action=checkComments">Check comments</a>
+                <a href="index.php?action=displayAdminHome">Admin</a>
             </li>
           </ul>
         </nav>
-        -->
       </header>
     </div>
+ 

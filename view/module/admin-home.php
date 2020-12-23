@@ -4,10 +4,10 @@
 
     <section id="admin-short-links">
         <div>
-            <a href="#">+</a>
+            <a href="index.php?action=createPost">+</a>
             <span>add post</span>
         </div>
-        <button type="submit">Check comments to validate (5)</button>
+        <button type="submit"><a href='index.php?action=checkComments'>Check comments to validate (5)</a></button>
     </section>
  
     <article>
@@ -18,7 +18,7 @@
         <span class="author">Christopher Frignet - </span><span class="date">Last modif. 10/12/2020, 0:00</span>
 
         <p class="action">
-            <button type="submit">Edit</button>
+            <button type="submit"><a href='index.php?action=updatePost'>Edit</a></button>
             <button type="submit">Delete</button>
         </p>
     </article>

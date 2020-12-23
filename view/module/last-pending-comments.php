@@ -33,6 +33,6 @@
                 </div>
             </div>
     </section>
-    <p class="all-comments-link"><a href="#">See all pending comments ></a></p>
+    <p class="all-comments-link"><a href="index.php?action=checkComments">See all pending comments ></a></p>
 </section>
  
